@@ -1,0 +1,9 @@
+a=int(input('a'))
+b=int(input('b'))
+c=int(input('c'))
+if(a>b):
+    print("the a value is greatest")
+elif(b>c):
+    print("the b value is greatest")
+else:
+    print("the c value is greatest")
