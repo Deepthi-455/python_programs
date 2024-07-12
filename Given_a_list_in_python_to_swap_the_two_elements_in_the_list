@@ -1,0 +1,5 @@
+lst=[23,64,19,90]
+pos1=int(input())
+pos2=int(input())
+lst[pos1],lst[pos2]=lst[pos2],lst[pos1]
+print(lst)
