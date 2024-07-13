@@ -1,0 +1,2 @@
+a='Iam the ece student'
+print('ece'in a)
