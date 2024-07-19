@@ -1,0 +1,5 @@
+def cap(str):
+    return ' '.join(map(lambda s: s[:-1]+s[-1].upper(),s.title().split()))
+s="I am ece student"
+print("String before:",s)
+print("String after:",cap(str))
